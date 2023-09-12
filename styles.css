@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap'); /* Gloria Hallelujah */
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap'); /* Borel */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');  /* Poiret One */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap'); /* Aboreto */
+
+:root {
+    --primary: #ff3985;
+    --grey: #f7f7f7;
+    --white: #fff;
+    --gold: #846a15;
+
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+.navContainer {
+    padding: var(--s) var(--m);
+    background-color: var(--primary);
+}
+  
+.navTitle {
+    color: var(--white);
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 20px;
+    /* Below cancels out some of the default styling of h1 */
+    margin: 0;
+    font-weight: 100;
+}
+
+.composer {
+    text-align: center;
+    font-family: "Aboreto", sans-serif;
+    color: var(--gold);
+}
+
+.nationality {
+    text-align: center;
+    font-family: "Borel", sans-serif;
+    color: black;
+}
+.works {
+    font-family: "Poiret One", sans-serif;
+    color: olive;
+}
